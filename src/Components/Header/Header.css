@@ -1,0 +1,332 @@
+.Header{
+    display: flex;
+    width: 60vw;
+    height: 12vh;
+    background-color:white;
+    box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+    border-radius: 9px;
+}
+.Hamar{
+    
+    border: none;
+    outline: none;
+    background-color: white;
+    position: relative;
+    
+    opacity: 0;
+    visibility: hidden;
+}
+.Nav1{
+    flex-basis: 4em;
+    background-color:white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    outline: none;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    
+}
+.Nav11{
+    flex-basis: 1em;
+    /* background-color:white; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 0px;
+    outline: none;
+}
+.Nav12{
+    flex-basis: 3em;
+    /* background-color:white; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 0px;
+    outline: none;
+}
+.Nav3{
+    flex-basis: 40em;
+    background-color:rgb(255, 255, 255);
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+    /* background-color: #000000; */
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+     
+
+}
+.Nav2{
+    flex-basis: 5em;
+    background-color: #425Cbb;
+    outline: none;
+    border: none;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Image{
+    width: 2px;
+    height: 2px;
+}
+.Nav2:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+/* .First-list{
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    justify-content: flex-start; 
+    align-items:flex-start;
+} */
+.First-item{
+    padding-right: 10px;
+    font-weight: 400;
+    font-family: Oswald;
+    color: #000000;
+    font-size: 14px;
+}
+.First-item:hover{
+    color: blue;
+    cursor: pointer;
+}
+.Nav3i{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.Nav3ii{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding-right: 1px;
+
+}
+.Nav3iii{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.Image1{
+    height: 14px;
+    width: 14px;
+}
+.Image1:hover{
+    height: 20px;
+    width: 20px;    
+}
+.Image2{
+    width: 20px;
+    height: 20px;
+}
+.Nav3ii:hover{
+    height: 23px;
+    width: 23px;
+}
+.Nav3iv{
+    height: 40px;
+    width: 100px;
+    border-radius:40px ;
+    color: white;
+    /* background-color:cornflowerblue; */
+    background-color: #425Cbb;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    
+}
+.Nav3iv:hover{
+    cursor: pointer;
+    background-color:cornflowerblue ;
+}
+@media (min-width:1200px){
+    .Header{
+        display: flex;
+        width: 60vw;
+        height: 12vh;
+        background-color:white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 9px;
+    }
+}
+@media (max-width:990px){
+    .Header{
+        display: flex;
+        /* margin-top: 1rem; */
+        width: 70vw;
+        height: 12vh;
+        background-color:white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 9px;
+    }
+    .Nav3i{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+    .Nav3ii{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+    .Nav3iii{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+}
+@media (max-width:800px){
+    .Header{
+        width: 66vw;
+    }
+    .Nav1{
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .Nav11{
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .Nav12{
+        width: 0%;
+        height: 0%;
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+@media (max-width:600px){
+    .Header{
+        width: 66.5vw;
+    }
+}
+@media (max-width:480px){
+    .Nav3iv{
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .Hamar{
+        visibility: visible;
+        opacity: 1;
+    }
+
+}
+/* @media (min-width:1200px){
+    .Header{
+        margin-left: 17vmax;
+        margin-top: 13vmin;
+        display: flex;
+        width: 60vw;
+        height: 12vh;
+        background-color:white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 9px;
+    }
+}
+@media (max-width:990px){
+    .Nav3i{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+    .Nav3ii{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+    .Nav3iii{
+        opacity: 0;
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+    }
+}
+@media (max-width:800px){
+    .Header{
+        margin-left: 4vmax;
+        width: 10vw;
+        height: 12vh;
+    }
+}
+@media (max-width:600px){
+    .Header{
+        margin-left: 100px;
+        width: 70vw;
+        height: 10vh;
+    }
+    .Nav1{
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .Nav11{
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .Nav12{
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .Nav3iv{
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;         
+    }
+    .Hamar{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@media (max-width:480px){
+    .Header{
+        margin-left: 15px;
+            width: 80vw;
+            height: 10vh;
+    }
+}
+@media (max-width:270px){
+    .Header{
+        margin-left: 4px;
+            width: 30vw;
+            height: 10vh;
+    }
+}
+@media (max-width:245px){
+    .Header{
+        margin-left: 1px;
+            width: 30vw;
+            height: 9vh;
+    }
+} */

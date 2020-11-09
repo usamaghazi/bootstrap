@@ -1,0 +1,216 @@
+.Content{
+    /* margin-left: 1rem; */
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    width: 56.6vw;
+    height: auto;
+    background-color:white;
+    box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+    border-radius: 9px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+.First{
+    width: auto;
+    height: auto;
+    /* background-color: turquoise; */
+}
+.Heading{
+    border-bottom: 5px solid rgb(113, 120, 219);
+}
+.Paragraph{
+    color: #4c4c4c;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 24px;
+}
+.Second{
+    width: auto;
+    height: auto;
+    background:#FAFAFA ;
+}
+.Educations{
+    background:#FAFAFA ;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.Div{
+    padding:10px;
+    border-radius: 9px;
+    background-color: white;
+    box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+    height: auto;
+    width: 15vw;
+}
+.Headz{
+font-size: 14px;
+color: #333333;
+font-family: 'Roboto',sans-serif;
+}
+.Bod{
+font-size: 13px;
+color: #989898;
+font-family: 'Roboto',sans-serif;
+}
+.Third{
+    width:auto;
+    height: auto;
+}
+.Skillo{
+font-size: 12px;
+color: #333333;
+font-family: 'Roboto',sans-serif;
+}
+.Percante{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+.Firsto{
+flex-basis: 60%;
+}
+.Secondo{
+flex-basis: 40%;
+}
+.Firstoo{
+    flex-basis: 70%;
+    }
+    .Secondoo{
+    flex-basis: 30%;
+    }
+.Firstooo{
+        flex-basis: 75%;
+        }
+.Secondooo{
+        flex-basis: 25%;
+        }
+.Firstooo{
+        flex-basis: 75%;
+        }
+.Secondooo{
+        flex-basis: 25%;
+        }
+.Firstoooo{
+            flex-basis: 65%;
+            }
+.Secondoooo{
+            flex-basis: 35%;
+            }
+.Firstooooo{
+        flex-basis: 85%;
+        }
+.Secondooooo{
+        flex-basis: 15%;
+    }
+.Fourth{
+    width: auto;
+    height: auto;
+    background:#FAFAFA ;
+    margin-bottom: 1rem;
+}
+.Experience{
+    background:#FAFAFA ;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.Divv{
+    padding:10px;
+    border-radius: 9px;
+    background-color: white;
+    box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+    height: auto;
+    width: 25vw;
+}
+@media (min-width:1200px){
+    .Content{
+        /* margin-left: 1rem; */
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 56.6vw;
+        height: auto;
+        background-color:white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 9px;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width:990px){
+    .Content{
+        /* margin-left: 1rem; */
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 65vw;
+        height: auto;
+        background-color:white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 9px;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width:800px){
+    .Content{
+        width: 64vw;
+    }
+}
+@media(max-width:800px){
+    .Content{
+        width: 59vw;
+    }
+    .Educations{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .Div{
+        width: 25vw;
+        margin-bottom: 13px;
+    }
+}
+@media(max-width:600px){
+    .Content{
+        width: 58.8vw;
+    }
+}
+@media (max-width:480px){
+    .Divv{
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 9px;
+        background-color: white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        height: auto;
+        width: 25vw;
+    }
+    .Div{
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 9px;
+        background-color: white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        height: auto;
+        width: 25vw;
+    }
+}

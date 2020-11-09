@@ -1,0 +1,187 @@
+.Sidebar{
+    
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 18.8vw;
+    background-color: white;
+    box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+    border-radius: 8px;
+}
+.Image{
+    width: 18.75vmax;
+    height: 18.75vmax;  
+}
+.Transform{
+    transform: skewY(-3deg);
+    padding-top: 2vh;
+}
+.Myname{
+    color: #333333;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* line-height: 0rem; */
+    width: 18vw; 
+}
+.Myjob{
+    margin-top: 0px;
+    color: #777777;
+    font-size: 13px;
+    font-family: Roboto,sans-serif;
+     
+}
+.Profile-name{
+    padding-left:2vw;
+    padding-top: 1vw;
+}
+.List{
+    padding-top: 5vh;
+    padding-left: 0vw;
+}
+.Unorder-list{
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: url(/images/icon.png);
+    
+}
+.First{
+    font-size: 13.5px;
+    color: #000000;
+    font-family: sans-serif;
+}
+.Second{
+    font-size: 13.5px;
+    color: #7f7f7f;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+.Secondd{
+    font-size: 11px;
+    color: #7f7f7f;
+    line-height: 1rem;
+    font-family: sans-serif;
+}
+.Item{
+    padding-bottom: 2vh;
+}
+@media (min-width:1200px){
+    .Sidebar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 18.8vw;
+        background-color: white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 10px;
+    }
+}
+@media(max-width:990px){
+    .Sidebar{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 70vw;
+        background-color: white;
+        box-shadow: 0px 0px 50px 2px rgba(163, 157, 157, 0.11);
+        border-radius: 8px;
+    }
+    .Image{
+        width: 70vmax;
+        height: 70vmax;  
+    }
+}
+@media (max-width: 800px){
+    .Sidebar{
+        width: 66vw;
+    }
+    .Image{
+        width: 65.9vmax;
+        height: 65.9vmax;  
+    }
+}
+@media (max-width:623px){
+    .Image{
+        width: 65.2vmax;
+        height: 65.2vmax;   
+    }
+}
+@media (max-width:617px){
+    .Image{
+        width: 65vmax;
+        height: 65vmax;   
+    }
+}
+@media (max-width:614px){
+    .Image{
+        width: 64.8vmax;
+        height: 64.8vmax;   
+    }
+}
+@media (max-width:612px){
+    .Image{
+        width: 64.5vmax;
+        height: 64.5vmax;   
+    }
+}
+@media (max-width:609px){
+    .Image{
+        width: 64.3vmax;
+        height: 64.3vmax;   
+    }
+}
+@media (max-width:608px){
+    .Image{
+        width: 64.2vmax;
+        height: 64.2vmax;   
+    }
+}
+@media (max-width:606px){
+    .Image{
+        width: 64vmax;
+        height: 64vmax;   
+    }
+}
+@media (max-width:605px){
+    .Image{
+        width: 63.9vmax;
+        height: 63.9vmax;   
+    }
+}
+@media (max-width:603px){
+    .Image{
+        width: 63.6vmax;
+        height: 63.6vmax;   
+    }
+}
+@media (max-width:602px){
+    .Image{
+        width: 63.5vmax;
+        height: 63.5vmax;   
+    }
+}
+@media (max-width:600px){
+    .Sidebar{
+        width: 66vw;
+    }
+    .Image{
+        width: 40vmax;
+        height: 40vmax;
+        border-radius: 50%;  
+    }
+    .Transform{
+        padding-top: 2vh;
+        padding-left: 2vw;
+        transform: skewY(0deg);
+    }
+}
+
+@media (max-width:480px){
+    .Image{
+        width: 23vmax;
+        height: 23vmax;
+        border-radius: 50%;  
+    }
+    .Transform{
+        padding-left: 10vw;
+    }
+}
